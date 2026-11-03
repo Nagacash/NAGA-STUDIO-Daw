@@ -1,26 +1,21 @@
-# Naga Studio DAW
+# Naga Studio
 
-Mac community preview • 0.0.1
+<img src="docs/github-banner.png" alt="Naga Studio analog mixer" width="1200">
 
-Naga Studio is a music production digital audio workstation for macOS, built for Apple silicon (arm64) with a macOS 11.0 minimum target.
+Mac community preview for Apple silicon. The mixer is the analog console, with channel strips on the inserts and Naga Wave in the instrument list.
+
+<img src="docs/mixer.jpg" alt="Naga Studio mixer in use" width="1200">
 
 ## Install
 
-Download `Naga-Studio-Installer-naga-logo.dmg`, open it, and run `Naga-Studio-0.0.1-macOS-arm64-UNSIGNED.pkg`.
+Download [Naga-Studio-Installer-naga-logo.dmg](Naga-Studio-Installer-naga-logo.dmg), open it, and run `Naga-Studio-0.0.1-macOS-arm64-UNSIGNED.pkg`.
 
-This package is **UNSIGNED and NOT NOTARIZED** by Apple. The app is locally (ad-hoc) signed. macOS may block the download — approve it through System Settings > Privacy & Security. Do not disable Gatekeeper globally.
-
-## Contents
-
-- `Naga-Studio-Installer-naga-logo.dmg` — disk image installer
-- `Naga Studio Source.zip` — matching modified source (GPL-3.0-or-later)
-- `LICENSE` — GPL-3.0-or-later
-- `THIRD-PARTY-NOTICES.txt` — third-party notices
+This package is unsigned and not notarized. macOS may block it. Approve it in System Settings, Privacy & Security.
 
 ## Plugins
 
-Install and license your own compatible VST3, VST2 or CLAP plugins. Audio Units, AAX and FL Studio-exclusive plugins are not supported directly. An Apple-silicon process cannot load Intel-only plugins.
+Install and license your own compatible VST3, VST2, or CLAP plugins. Audio Units, AAX, and FL Studio-exclusive plugins are not loaded directly. An Apple silicon process cannot load Intel-only plugins.
 
-## Remove
+The vertical post is [docs/social.png](docs/social.png).
 
-Quit Naga Studio and remove `/Applications/Naga Studio.app`. Your projects and `~/Library/Application Support/Lemon Studio` remain untouched.
+Powered by [Naga Codex](https://nagacodex.cloud)
