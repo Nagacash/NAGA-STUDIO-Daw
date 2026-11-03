@@ -1,4 +1,4 @@
-# Naga Studio
+# Naga Studio - DAW
 
 <img src="docs/github-banner.png" alt="Naga Studio analog mixer" width="1200">
 
