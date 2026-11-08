@@ -11,5 +11,8 @@ Source/target-*/
 *.dmg
 *.zip
 
+# Local marketing assets (not in repo)
+docs/instagram.mp4
+
 # Keep published installer in repo only when explicitly force-added
 # Naga-Studio-Installer-naga-logo.dmg
