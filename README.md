@@ -10,6 +10,16 @@ Mac community preview for Apple silicon. The mixer is the analog console, with c
 
 Download the installer from [Google Drive](https://drive.google.com/drive/folders/1NXJPM7qsGXwQg_F4yYkg_0Zt3VtfQmxZ), open `Naga-Studio-Installer-naga-logo.dmg`, and run `Naga-Studio-0.0.1-macOS-arm64-UNSIGNED.pkg`.
 
+## Build (macOS, from source)
+
+From `Source/` on Apple silicon (native Terminal):
+
+```bash
+bash packaging/mac/build-naga-dmg.command
+```
+
+This builds **Naga Studio**, installs all in-tree **CLAP/VST3** plugins to your user folders, copies **Naga Studio.app** into **`~/Applications`** (so you can skip dragging from the DMG), signs the app bundle, and writes `Naga-Studio-arm64-<version>.dmg` to this repo folder and to `Desktop/Naga Studio Mac Public Download/<version>/`. Set `NAGA_SKIP_INSTALL=1` before the script if you only want the DMG.
+
 This package is unsigned and not notarized. macOS may block it. Approve it in System Settings, Privacy & Security.
 
 ## Plugins

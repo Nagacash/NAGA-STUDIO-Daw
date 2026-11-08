@@ -1,0 +1,15 @@
+# macOS metadata on external volumes
+._*
+.DS_Store
+
+# Local build artifacts
+Source/target/
+Source/target-*/
+.tmp/
+
+# Release binaries (hosted on Google Drive / Desktop publish folder)
+*.dmg
+*.zip
+
+# Keep published installer in repo only when explicitly force-added
+# Naga-Studio-Installer-naga-logo.dmg
